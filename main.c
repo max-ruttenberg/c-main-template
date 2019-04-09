@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 {
     static struct option options [] = {
 	{ "help" , 0 , 0, 'h' },
-	{ /* sentinal */ }
+	{ /* sentinel */ }
     };
     static const char * opstring = "h";
     int ch;
